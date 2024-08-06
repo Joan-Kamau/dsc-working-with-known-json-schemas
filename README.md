@@ -38,6 +38,7 @@ with open('ny_times_response.json', 'r') as f:
 
 ```python
 # replace this comment with the code to import the JSON library
+import json
 
 # replace this comment with the code to load the desired file and assign it to the variable
 ```
@@ -48,6 +49,7 @@ Now we can inspect what we loaded with some tools we are already familiar with.
 
 ```python
 # replace this comment with the code to print the data type of the file `data`
+print(type(data))
 
 # replace this comment with the code to print the keys of the file
 ```
